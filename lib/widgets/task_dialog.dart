@@ -31,7 +31,8 @@ class NewTaskDialog extends StatelessWidget {
         decoration: InputDecoration(
           border: OutlineInputBorder(),
         ),
-        onChanged: (value) {  txtFieldChanged;
+        onChanged: (value) {
+          txtFieldChanged;
         },
       ),
       actions: [
@@ -58,6 +59,5 @@ class NewTaskDialog extends StatelessWidget {
         ),
       ],
     );
-    ;
   }
 }

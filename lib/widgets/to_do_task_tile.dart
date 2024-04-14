@@ -25,7 +25,6 @@ class TODOItem extends StatelessWidget {
     return Column(
       children: [
         Slidable(
-          
           endActionPane: ActionPane(
             motion: StretchMotion(),
             children: [
